@@ -1,0 +1,58 @@
+/* FAQ Section - Часто задаваемые вопросы */
+.faq {
+    padding: var(--spacing-xl) var(--spacing-md);
+    background: var(--color-light-gray);
+}
+
+.faq-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    background: var(--color-white);
+    margin-bottom: 1.5rem;
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+}
+
+.faq-question {
+    padding: 2rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--color-black);
+    transition: all var(--transition-fast);
+}
+
+.faq-question:hover {
+    background: var(--color-light-gray);
+}
+
+.faq-toggle {
+    font-size: 1.5rem;
+    color: var(--color-yellow);
+    transition: transform var(--transition-fast);
+}
+
+.faq-item.active .faq-toggle {
+    transform: rotate(45deg);
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height var(--transition-fast), padding var(--transition-fast);
+    padding: 0 2rem;
+    color: var(--color-gray);
+    line-height: 1.7;
+}
+
+.faq-item.active .faq-answer {
+    max-height: 500px;
+    padding: 0 2rem 2rem;
+}

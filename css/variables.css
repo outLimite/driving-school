@@ -1,0 +1,39 @@
+/* CSS Variables - Цветовая схема и основные настройки */
+:root {
+    /* Colors */
+    --color-yellow: #FFDD2D;
+    --color-black: #0A0A0A;
+    --color-dark-gray: #1A1A1A;
+    --color-gray: #333333;
+    --color-light-gray: #F5F5F5;
+    --color-white: #FFFFFF;
+    --color-accent: #00A859;
+    
+    /* Fonts */
+    --font-main: 'Manrope', sans-serif;
+    --font-mono: 'Space Mono', monospace;
+    
+    /* Spacing */
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 2rem;
+    --spacing-lg: 4rem;
+    --spacing-xl: 8rem;
+    
+    /* Border Radius */
+    --radius-sm: 12px;
+    --radius-md: 16px;
+    --radius-lg: 20px;
+    --radius-xl: 24px;
+    
+    /* Shadows */
+    --shadow-sm: 0 5px 20px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 10px 40px rgba(0, 0, 0, 0.08);
+    --shadow-lg: 0 20px 60px rgba(0, 0, 0, 0.15);
+    --shadow-yellow: 0 8px 30px rgba(255, 221, 45, 0.4);
+    
+    /* Transitions */
+    --transition-fast: 0.3s ease;
+    --transition-medium: 0.4s ease;
+    --transition-slow: 0.6s ease;
+}
